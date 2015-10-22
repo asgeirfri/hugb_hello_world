@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./gradlew jar
+cp build/libs/hugb_hello_world.jar /tmp
+java -jar /tmp/hugb_hello_world.jar
